@@ -1,0 +1,73 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 900px;
+  margin: auto;
+  background-image: url(../img/folha.jpg);
+  background-size: 70px;
+  
+}
+
+div {
+  border-radius: 10px;
+}
+
+.menu {
+  background-color: orange;
+  height: 60px;
+  margin: auto;
+  padding: 5px;
+  text-align: right;
+  
+}
+
+li {
+  display: inline;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  margin: 10px;
+  padding: 15px;
+}
+
+.photo, .desc-photo {
+  padding: 15px;
+  margin: 5px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+span {
+  font-style: inherit;
+}
+
+img {
+  border-radius: 10px;
+}
+
+div.desc-photo p {
+  font-size: 16pt;
+}
+
+.descr-home {
+  background-color: orange;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  padding: 5px 15px;
+}
+
+.cont-footer {
+  background-color: orange;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  justify-content: space-around
+}
