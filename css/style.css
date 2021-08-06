@@ -3,47 +3,88 @@
 }
 
 body {
-  width: 900px;
+  width: 1000px;
   margin: auto;
   background-image: url(../img/folha.jpg);
   background-size: 70px;
-  
+  background-attachment: fixed;
 }
 
-div {
+div, p {
   border-radius: 10px;
 }
 
 .menu {
-  background-color: orange;
-  height: 60px;
+  background-color: rgb(206, 134, 0);
+  height: 80px;
   margin: auto;
-  padding: 5px;
+  padding: 5px 15px;
+  margin: 10px;
+  display: flex;
+}
+
+.menu-links {
   text-align: right;
+  width: 100%;
+}
+
+.menu-logo {
+  text-align: left;
+  margin-top: 8px;
   
 }
 
-li {
-  display: inline;
-  padding: 40px;
+header img {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 8px;
+  padding-right: 10px;
+  
+}
+
+.menu ul li a {
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.menu ul li a:hover {
+  color: #fff;
+}
+
+p {
+  color: rgb(54, 54, 54);
+  padding: 10px;
 }
 
 .container {
   display: flex;
   align-items: center;
-  background-color: orange;
-  margin: 10px;
+  background-color: rgb(206, 134, 0);
+  margin: 15px;
+  height: 30rem;
   padding: 15px;
 }
 
-.photo, .desc-photo {
+.photo-kakashi, .desc-photo {
   padding: 15px;
   margin: 5px;
   box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+  background-color: orange;
 }
 
 span {
   font-style: inherit;
+  font-family: fantasy;
+  text-transform: uppercase;
 }
 
 img {
@@ -55,19 +96,38 @@ div.desc-photo p {
 }
 
 .descr-home {
-  background-color: orange;
   height: 60px;
   text-align: center;
   margin: auto;
   padding: 5px 15px;
+  background-color: rgb(206, 134, 0);
+  align-items: center;
+  display: flex;
+}
+
+.descr-home p {
+  font-size: 14pt;
 }
 
 .cont-footer {
-  background-color: orange;
+  background-color: rgb(206, 134, 0);
   height: 60px;
   display: flex;
   align-items: center;
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   justify-content: space-around
+}
+
+.local, .redes, .tags-chaves {
+  padding: 5px;
+  justify-content: space-evenly;
+  width: 160px;
+  display: flex;
+  
+}
+
+footer div div  p {
+  text-align: center;
+  font-size: 10pt;
 }
