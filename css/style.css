@@ -74,7 +74,7 @@ p {
   padding: 15px;
 }
 
-.photo-kakashi, .desc-photo {
+.photo-kakashi, .photo-livros, .photo-jiraiya, .desc-photo {
   padding: 15px;
   margin: 5px;
   box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
@@ -84,6 +84,7 @@ p {
 span {
   font-style: inherit;
   font-family: fantasy;
+  font-size: 25pt;
   text-transform: uppercase;
 }
 
@@ -130,4 +131,8 @@ div.desc-photo p {
 footer div div  p {
   text-align: center;
   font-size: 10pt;
+}
+
+i {
+  margin: auto;
 }
