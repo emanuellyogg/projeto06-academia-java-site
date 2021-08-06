@@ -30,8 +30,7 @@ div, p {
 
 .menu-logo {
   text-align: left;
-  margin-top: 8px;
-  
+  margin: auto;  
 }
 
 header img {
@@ -86,6 +85,8 @@ p {
   background-color: orange;
 }
 
+
+
 span {
   font-style: inherit;
   font-family: fantasy;
@@ -113,6 +114,61 @@ div.desc-photo p {
 
 .descr-home p {
   font-size: 14pt;
+}
+
+.form-body {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+legend {
+  color: rgb(54, 54, 54)hite;
+  background-color: rgb(206, 134, 0);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.596);
+  border-radius: 5px;
+  font-size: 1.3em;
+  padding: 2px 5px;
+  border-style: dashed;
+  border-color: white;
+}
+
+div.form-body input, select, textarea {
+  width: -webkit-fill-available;
+  border-radius: 10px;
+  border: none;
+  border-style: inset;
+  padding: 3px;
+  margin: 5px;
+}
+
+.form-cont {
+  padding: 15px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+  background-color: orange;
+}
+
+.form-footer {
+  text-align: right;
+}
+
+select {
+  cursor: pointer;
+}
+
+button {
+  font-size: 14pt;
+  border-radius: 10px;
+  border: none;
+  border-style: inset;
+  font-weight: 550;
+  cursor: pointer;
+  margin-right: 60px;
+}
+
+button:hover {
+  background-color: rgb(22, 197, 22);
 }
 
 .cont-footer {
